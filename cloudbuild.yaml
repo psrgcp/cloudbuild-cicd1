@@ -1,8 +1,0 @@
-steps:
-  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
-    args: ["./deploy-http.sh"]
-    waitFor: ["-"]
-
-  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
-    args: ["./deploy-pubsub.sh"]
-    waitFor: ["-"]
